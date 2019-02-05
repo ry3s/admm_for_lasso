@@ -1,0 +1,17 @@
+### 環境構築
+`brew install pyenv`
+`pyenv install anaconda3-5.1.0`
+`pyenv global anaconda3-5.1.0`
+
+`conda install scikit-learn`
+`conda install pandas`
+
+### ファイル構造
+- `admm.py`
+    * ADMM for Lassoを組んだファイル
+- `driver.py`
+    * scikit-learnに入っているデータセット(diabetes)を使用して，学習させる．
+    * また，学習した偏回帰係数を表示させる．
+
+### 使い方
+`python driver.py`
